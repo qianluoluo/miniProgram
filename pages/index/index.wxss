@@ -1,0 +1,93 @@
+/*
+    index.wcss 
+    wxss支持的选择器有限
+    .class
+    #id
+    tag
+    群组选择器
+    view,text
+    ::after
+    ::before
+*/
+.index-wrapper{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 60rpx 32rpx 0;
+    box-sizing: border-box;
+    background: url(https://sta.maodou.com/xinche_wap/static/images/login-bg@2x.a0cdeeb4.png) no-repeat top;
+    background-size: 100% 100%;
+}
+.login-title{
+    display: block;
+    font-size: 38rpx;
+    color:#3f4359;
+    margin: 150rpx 0 10rpx;
+    text-align: left;
+}
+.login-subtitle{
+    display: block;
+    color: #8D91AC;
+    font-size: 30rpx;
+    text-align: left;
+    margin-bottom: 70rpx;
+}
+.input-box{
+    padding: 39rpx 32rpx;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 70rpx;
+    background: #fff;
+}
+.input-box input{
+    font-size: 30rpx;
+    color:#3F4359;
+}
+.get-code-btn{
+    position: absolute;
+    top: 28rpx;
+    right: 0;
+    width: 192rpx;
+    height: 64rpx;
+    font-size: 25rpx;
+    color: #fff;
+    text-align: center;
+    line-height: 64rpx;
+    background: #C6C8D5;
+    border: none;
+    outline: none;
+    background: #FF7414;
+}
+
+.login-btn{
+    height: 88rpx;
+    font-size: 32rpx;
+    color: #fff;
+    text-align: center;
+    line-height: 88rpx;
+    background: #FF7414;
+}
+.login-btn[disabled]{
+    opacity: 0.25;
+    background: #FF7414!important;
+    color: #fff!important;
+}
+.tips{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 580rpx;
+    height: 80rpx;
+    font-size: 32rpx;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10rpx;
+    color: #ccc;
+    text-align: center;
+    line-height: 80rpx;
+}
+.hide{
+    display: none;
+}

@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view is="test" class="index-wrapper">
+	<rich-text name="h4" class="login-title">家哥 这是我的小程序</rich-text>
+	<rich-text name="p" class="login-subtitle">希望你有点脑子，别写错自己的手机号码</rich-text>
+	<view class="input-box">
+		<input class="phone-in" type="number" placeholder="your" value="{{phone}}" bindinput="handlerInput"/>
+	</view>
+	<button class="login-btn" bindtap="handlerLogin" disabled="{{errorInfo}}">come in</button>
+	<view class="{{isShow?'tips':'tips hide'}}" >
+		傻到自己手机号都不知道了？？？
+	</view>
+	<view class="for" wx:for="{{array}}" wx:key="{{index}}">{{item}}</view>
+	<view wx:if="{{errorInfo}}">errorInfo是true</view>
+	<!-- template不会渲染成dom，适合多个dom一起切换，用template包裹起来 -->
+	<!-- wxs文件，我理解就是一个可被多的文件调用的公用数据。。。 -->
+	<wxs src='../../common/common1.wxs' module="tool" />
+	<view>{{tool.foo}}</view>
+	<view>{{tool.bar(tool.foo)}}</view>
+</view>

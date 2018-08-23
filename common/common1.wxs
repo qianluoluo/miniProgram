@@ -1,0 +1,9 @@
+var foo = 'hello weChat';
+var bar = function(d){
+    return d;
+}
+module.exports = {
+    foo: foo,
+    bar: bar
+}
+// 这文件是啥意思啊。。。

@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    height: 200rpx;
+}
+.big-title{
+    width: 100%;
+    height: 100rxp;
+    line-height: 100rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: #000;
+}
+.get-car-btn{
+    width: 680rpx;
+    height: 80rpx;
+    text-align: center;
+    font-size: 28rpx;
+    background-color: #FF7414;
+    color: #fff;
+    line-height: 80rpx;
+    opacity: 0.75;
+}
+.end{
+    font-size: 30rpx;
+    text-align: center;
+    margin: 200rpx auto 0;
+}
+.error{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 580rpx;
+    height: 80rpx;
+    font-size: 32rpx;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10rpx;
+    color: #ccc;
+    text-align: center;
+    line-height: 80rpx;
+}
+.hide{
+    display: none;
+}

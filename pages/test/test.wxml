@@ -1,0 +1,10 @@
+<view class="container">
+    <rich-text type='p' class="big-title">家哥家哥你买车不？</rich-text>
+    <button class="get-car-btn" bindtap="handledClick">点我，立即获得毛豆新车一辆</button>
+    <view class="end">
+        我不想写了，想不出来页面咋写，不会设计
+    </view>
+    <view class="{{isShow?'error':'error hide'}}">
+        请移步毛豆官网进行选购
+    </view>
+</view>

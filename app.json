@@ -1,0 +1,40 @@
+{
+	"pages":[
+		"pages/index/index",
+		"pages/test/test"
+	],
+	"window":{
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "生而为人，请务必善良",
+		"navigationBarTextStyle":"black",
+		"backgroundTextStyle":"light",
+		"backgroundColor":"#fff",
+		"enablePullDownRefresh":true,
+		"enReachButtomDistance":80
+	},
+	"tabBar":{
+		"color":"black",
+		"selectedColor":"#ff7414",
+		"borderStyle":"black",
+		"position":"bottom",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text":"首页",
+			"iconPath": "pages/index/Home2@2x.png",
+			"selectedIconPath":"pages/index/Home2@2x.png"
+		},{
+			"pagePath": "pages/test/test",
+			"text":"测试",
+			"iconPath": "pages/index/Home2@2x.png"
+		}]
+	},
+	"networkTimeout": {
+		"request": 10000,
+		"downloadFile": 10000
+	},
+	"debug": true,
+	"requiredBackgroundModes":{
+		"pages": ["pages/index/index"],
+  		"requiredBackgroundModes": ["audio"]
+	}
+}
